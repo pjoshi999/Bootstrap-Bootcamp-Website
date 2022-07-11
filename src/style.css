@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+}
+
+body::before {
+    display: block;
+    content: '';     /* when we use pseudo elements like ::before or ::after, we have to set content: '' */
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
